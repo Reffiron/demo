@@ -17,3 +17,6 @@ hq-cli ansible_ssh_host=192.168.200.2 ansible_ssh_user=Administrator@au-team.irp
 conf 
 /etc/ansible/ansible.cfg
 #host_key_checking = False >> host_key_checking = False
+
+
+ansible all -m ping
